@@ -18,7 +18,7 @@ layout: page
         <h2>Links</h2>
         {% if page.citekey %}
           {% raw %}{% nocite page.citekey %}{% endraw %}
-          {% bibliography --cited --template pubhublinkstemplate %}
+          {% raw %}{% bibliography --cited --template pubhublinkstemplate %}{% endraw %}
         {% else %}
           <ol class="link-list">
             {% include hubadditionallinks.html %}
