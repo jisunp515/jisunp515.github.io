@@ -28,7 +28,7 @@ layout: page
       {{ content }}
       <section class="abs-bibtex">
         {% if page.citekey %}
-          {% bibliography --cited --template pubhubabsbibtex %}
+          {% raw %}{% bibliography --cited --template pubhubabsbibtex %}{% endraw %}
         {% endif %}
       </section>
     </section>
