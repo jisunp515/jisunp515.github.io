@@ -1,232 +1,168 @@
-# Grape-Academic-Theme
+# Hydeout
 
-<a href="https://jekyll-themes.com">
-    <img src="https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg" height="20" alt="Jekyll Themes Shield" loading="lazy">
-</a>
+Hydeout updates the original [Hyde](https://github.com/poole/hyde)
+theme for [Jekyll](http://jekyllrb.com) 3.x and 4.x and adds new functionality.
 
+![Desktop](/_screenshots/1.png?raw=true)
+<img alt="Mobile home page" src="/_screenshots/2.png?raw=true" width="300px" />
+<img alt="Mobile post page" src="/_screenshots/3.png?raw=true" width="300px" />
+
+### Usage
+
+Hydeout is available as the `jekyll-theme-hydeout` Ruby Gem.
+Add `gem "jekyll-theme-hydeout", "~> 4.1"` to your Gemfile and run
+`bundle install`.
+
+If you're installing on Github pages, you may also have to add
+`remote_theme: fongandrew/hydeout` to your `_config.yml`. [See the Github
+instructions for more details.](https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/)
+
+Hydeout uses pagination, so if you have an `index.md`, you'll need to swap
+it with an `index.html` that uses the `index` layout:
+
+```
+---
+layout: index
+title: Home
+---
+```
+
+You'll also need to add a setting to `_config.yml` telling Jekyll how many posts
+to include per page (e.g. `paginate: 5`).
+
+### Keep It Simple
+
+In keeping with the original Hyde theme, Hydeout aims to keep the overall
+design lightweight and plugin-free. JavaScript is currently limited only
+to Disqus and Google Analytics (and is only loaded if you provide configuration
+variables).
+
+Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available,
+the CSS degrades into a single column layout.
+
+### Customization
+
+Hydeout replaces Hyde's class-based theming with the use
+of the following SASS variables:
+
+```scss
+$sidebar-bg-color: #202020 !default;
+$sidebar-fg-color: white !default;
+$sidebar-sticky: true !default;
+$layout-reverse: false !default;
+$link-color: #268bd2 !default;
+```
+
+To override these variables, create your own `assets/css/main.scss` file.
+Define your own variables, then import in Hydeout's SCSS, like so:
+
+```scss
+---
+# Jekyll needs front matter for SCSS files
 ---
 
-![home](https://chrjabs.github.io/Grape-Academic-Theme/assets/img/portfolio.png)
-
-Welcome to Grape Academic Theme!
-This theme is based on [Grape Theme](https://github.com/naye0ng/Grape-Theme) and modifies it to be more directly applicable as an academic portfolio page.
-It can still include a blog, but that is optional.
-
-[Demo](https://chrjabs.github.io/Grape-Academic-Theme)
-
-## Features
-
-Some of these features are optional and can be turned on or off in the `_config.yml` file.
-
-### [Portfolio Homepage](https://chrjabs.github.io/Grape-Academic-Theme)
-
-Portfolio page giving an overview of your research.
-
-### [Publications List](https://chrjabs.github.io/Grape-Academic-Theme/publications)
-
-A optional list of your publications auto-generated from a BibTeX file.
-Additional information can be linked to from the BibTeX file.
-
-### [Presentations List](https://chrjabs.github.io/Grape-Academic-Theme/presentations)
-
-A optional list of your presentations auto-generated for a data file.
-
-### [Blog](https://chrjabs.github.io/Grape-Academic-Theme/blog)
-
-An optional blog for any posts you want to publish.
-
-### [Hub Pages](https://chrjabs.github.io/Grape-Academic-Theme/example-hub)
-
-Hub pages are intended for easy linking in your presentations.
-They collect links and additional information related to your presentation so that you only have to put one link on your slides.
-They can be manually generated or automatically from one of your publication entries.
-
-## Installation and Serving Local Version for Testing
-
-1. Fork and clone the Grape Academic Theme repo
-
-   ```
-   git clone https://github.com/chrjabs/Grape-Academic-Theme.git
-   ```
-
-2. Install Jekyll 
-
-   ```
-   gem install jekyll
-   ```
-
-3. Install the theme's dependencies
-
-   ```
-   bundle install
-   ```
-
-4. Update `_config.yml`, `_data/projects.yml`, `_data/projects.yml` and `_bibliography/publications.bib` with your own settings.
-
-5. Run the Jekyll server
-
-   ```
-   bundle exec jekyll serve
-   ```
-
-## Publishing
-
-Grape-Academic-Theme uses jekyll-scholar and therefore needs to manually be published to GitHub pages.
-A script for publishing on a `gh-pages` branch is included.
-Run `_scripts/publish.sh` from the main project directory and the page will be built, copied to the `gh-pages` branch and published.
-Make sure that GitHub pages is set up to publish that branch.
-If additional scripts should be executed in the HTML root, they can be placed in `_scripts/publish.d` and will be automatically executed.
-
-These are step-by-step instructions for forking and publishing the theme at your `<username>.github.io` github pages website:
-
-1. For the repository to a repository named `<username>/<username>.github.io`
-2. Go to the settings of the new repository and navigate to the "Pages" tab.
-  There, change the source for github pages to the `gh-pages` branch of the repository.
-3. Clone the repository and go through the installation steps listed above
-4. In `_config.yml`, change the `baseurl` option to an empty string (`""`) to host the webpage in the root of your `github.io` page
-5. Commit the change and (with a working jekyll install) run `_scripts/publish.sh`
-6. _Wait a couple of minutes_ and the demo content will show up at `<username>.github.io`
-
-## Customizing
-
-Grape-Theme has two great features: the profile section and the project section of the portfolio page. Just by changing `_config.yml` and `projects.yml`, you can use all of these features.
-
-### Feature Settings
-
-The blog, publications, and presentations pages are optional and can be turned on or off in the config file.
-
-### Favicon
-
-Generate your favicons with [realfavicongenerator.net](https://realfavicongenerator.net/) and place them in the root directory.
-The code to include them is already set up in the template.
-
-### Site configuration
-
-```
-baseurl: "{subpath}"
-
-theme_settings :
-  title: {blog title}
+$sidebar-bg-color: #ac4142;
+$link-color: #ac4142;
+$sidebar-sticky: false;
+@import "hydeout";
 ```
 
-### Profile Settings
+See the [_variables](_sass/hydeout/_variables.scss) file for other variables
+you can override.
 
-Profile is displayed on the index page, and also experience and skills are displayed on the portfolio page.
-The profile is configured in `_data/profile.yml`.
+You can see the full set of partials you can replace in the
+[`_includes`](_includes) folder, but there are a few worth noting:
 
-```
-image: assets/img/smile.png
-username: Christoph Jabs
-description: creator of the Grape-Academic-Theme! Grape-Academic-Theme is a modification of the Grape-Theme by naye0ng, making it more suitable as an academic portfolio.
-webpage: https://chrjabs.github.io
-experience:
-  - start: 2017-05-03
-    end: 2018-05-06
-    experience : company name, title
-interests:
-  - Interest 1
-  - Interest 2
-skills: 
-  - skill: HTML5 & CSS
-    value: 85  # Percent value
-```
+* `_includes/copyright.html` - Insert your own copyright here.
 
-### Presentations
+* `_includes/custom-head.html` - Insert custom head tags (e.g. to load your
+  own stylesheets)
 
-The data for the presentations page can be defined in `data/presentations.yml`.
+* `_includes/custom-foot.html` - Insert custom elements at the end of the
+  body (e.g. for custom JS)
 
-```
-- presentation:
-    title: A nice presentation
-    event: Fancy conference
-    date: 05/2022
-    comment: This is some comment text that can do _Markdown_
-    slides: https://www.google.com # potential link to slides
-- presentation:
-    title: A second presentation
-    event: Another conference
-    date: 03/2022
-```
+* `_includes/custom-nav-links.html` - Additional nav links to insert at the
+  end of the list of links in the sidebar.
 
-### Hub Pages
+  Pro-tip: The `nav`s in the sidebar are flexboxes. Use the `order` property
+  to order your links.
 
-For an example on how to configure a hub page, see the `example-hub.md` file.
+* `_includes/custom-icon-links.html`- Additional icon links to insert at the
+  end of the icon links at the bottom of the sidebar. You can use the `order`
+  property to re-order.
 
-### Pagination
+* `_includes/favicons.html` - Replace references to `favicon.ico` and
+  `favicon.png` with your own favicons references.
 
-Defines the number of posts to be shown on one page.
+* `_includes/font-includes.html` - The Abril Fatface font used for the site
+  title is loaded here. If you're overriding that font in the CSS, be sure
+  to also remove the font load reference here.
 
-```
-paginate: 5
-```
+### New Features
 
-### Portfolio Settings
+* Hydeout adds a new tags page (accessible in the sidebar). Just create a
+  new page with the tags layout:
 
-![home](https://chrjabs.github.io/Grape-Academic-Theme/assets/img/portfolio.png)
+  ```
+  ---
+  layout: tags
+  title: Tags
+  ---
+  ```
 
-The Project configuration is available in `_data/projects.yml`.
+* Hydeout adds a new "category" layout for dedicated category pages.
+  Category pages are automatically added to the sidebar. All other pages
+  must have `sidebar_link: true` in their front matter to show up in
+  the sidebar. To create a category page, use the `category` layout"
 
-The portfolio page provides projects and detailed views by modal.
-If `modal : False` is selected, modal will not be displayed on site. 
+  ```
+  ---
+  layout: category
+  title: My Category
+  ---
 
-- **print** : 
-  
-  - If `print: True` is selected, it will be displayed on landing page
-  
-- **modal** 
-  
-  - If `modal: True` is selected, modal will be displayed on the Portfolio page
-  
-    ![home](https://chrjabs.github.io/Grape-Academic-Theme/assets/img/modal.png)
+  Description of "My Category"
+  ```
 
-```
-print: True
-modal: True  
-```
+* You can control how pages are sorted by using the `sidebar_sort_order`
+  parameter in the front matter. This works for both category and non-category
+  pages, although non-category pages will always come first. Take a look at
+  [`_includes/sidebar-nav-links.html`](./_includes/sidebar-nav-links.html) if
+  you want to customize this behavior.
 
-Add details(link, description) about your projects
+  ```
+  ---
+  layout: page
+  title: My page
+  sidebar_sort_order: 123
+  ---
 
-```
-url: https://github.com/naye0ng/Grape-Theme # Full URL
-image: "portfolio.png" # path: assets/project/
-date: 2019.06.09 - 2019.07.11
-title: 
-summary: 
-description:  
-# modal contents
-contents:
-  - title:
-    image:      	    
-    description: 
-```
+  Some content.
+  ```
 
-### Colors
+* A simple redirect-to-Google search is available. Just create a page with
+  the `search` layout.
 
-You can change colors at once. colors are in `_sass/base/_variable.scss`
+  ```
+  ---
+  layout: search
+  title: Google Search
+  ---
+  ```
 
-## Posts in Grape theme
+* Disqus integration is ready out of the box. Just add the following to
+  your config file:
 
-You can confirm how to draw tags at [here](https://grape-theme.netlify.com/2019/06/08/markdown-and-html.html) and [here](https://grape-theme.netlify.com/2019/06/09/grape-theme-style.html)
+  ```yaml
+  disqus:
+    shortname: my-disqus-shortname
+  ```
 
-### Create a new post
+  If you don't want Disqus or want to use something else, override
+  `comments.html`.
 
-1. Create a `.md` inside `_posts` folder
-   ```
-   2019-07-11-grape-theme.md
-   ```
+* For Google Analytics support, define a `google_analytics` variable with
+  your property ID in your config file.
 
-2. Write the [Front Matter](https://jekyllrb.com/docs/front-matter/) and content in the file.
-   ```
-   ---
-   layout: post
-   title: title
-   subtitle : subtitle
-   tags: [tag1, tag2]
-   author: 
-   comments : 
-   ---
-   ```
-
-## Licence
-
-The theme is available as open source under the terms of the [MIT Licence](https://opensource.org/licenses/MIT).
+There's also a bunch of minor tweaks and adjustments throughout the
+theme. Hope this works for you!

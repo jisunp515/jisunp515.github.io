@@ -1,73 +1,35 @@
-# Site Settings
-url: "https://jisunp515.github.io"
-baseurl:
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
 
-# Features Setting
-# Turn subpages on or off
-publications: True
-presentations: True
-blog: False
+# Setup
+title:            Hydeout
+tagline:          'A Jekyll theme'
+description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
+url:              https://fongandrew.github.io
+baseurl:          '/hydeout'
+                  # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
 
-# Language of the website
-lang: en
+author:
+  name:           'Andrew Fong'
+  url:            https://twitter.com/fongandrewc
 
-# Search engine optimization settings
-title: Jisun Park
-tagline:
-description:
-author: Jisun Park (박지선)
-twitter:
-  username:
-  card:
-logo: /assets/img/smile.png
-social:
-  name: Jisun Park
-  links:
-    - https://github.com/jisunp515
-locale: en_US
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
 
-# Page Settings
-theme_settings:
-  title: Jisun Park
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
 
-  experience_title: EDUCATION
-  interests_title: RESEARCH INTERESTS
-  skills_title: SKILLS
-  awards_title: GRANTS & AWARDS
-  projects_title: PROJECTS
-  recentpubs_title: RECENT PUBLICATIONS
-
-# Pagination
-paginate: 5
-paginate_path: "blog/page:num"
-
-# Build Settings
-sass:
-  sass_dir: _sass
-  style: :compressed
-plugins: ['jekyll-paginate', 'jekyll/scholar', 'jekyll-seo-tag']
-bootstrap:
-  assets: true
-
-# Bibliography settings
-scholar:
-  bibliography: publications.bib
-  bibliography_template: pubstemplate
-  style: apa
-  locale: en
-  last_name: Park
-  first_name: [Myself, M.]
-  sort_by: year,month
-  order: descending,ascending
-
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website] # Filter out certain bibtex entry keywords used internally from the bib output
-
-academicons:
-  version: "1.9.1"
-  integrity: "sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg="
-fontawesome:
-  version: "5.15.4"
-  integrity: "sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4="
-jquery:
-  version: "3.6.0"
-  integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+# Sidebar link settings
+sidebar_home_link:  true
+# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.
