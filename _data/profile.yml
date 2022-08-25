@@ -1,14 +1,20 @@
 image: assets/img/smile.png
 username: Jisun Park
-description: Ph.D Candidate,  Department of Mathematical Sciences,<br/>Seoul National University (SNU).
+description: Ph.D Candidate, Department of Mathematical Sciences,<br/>Seoul National University (SNU).
 webpage: https://jisunp515.github.io
 experience: # Remove for hiding the experience section
-  - start: 2017-05-03
-    end: 2018-05-06
-    experience : company name, title
+  - start: 2014-03
+    end: 2019-02
+    experience : Mathematics Education, B.Sc.<br/>Seoul National University.
+  - start: 2018-09
+    end: 2018-12
+    experience : Exchange Program.<br/>University of British Columbia.
+  - start: 2019-02
+    end:
+    experience : Ph.D. Candidate in Mathematics.<br/>Seoul National University.
 interests: # Remove for hiding the interests section
-  - Interest 1
-  - Interest 2
+  - Optimization
+  - Deep Learning Theory
 skills: # Remove for hiding the skills section
   - skill: HTML5 & CSS
     value: 85  # Percent value

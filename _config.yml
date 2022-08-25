@@ -33,7 +33,7 @@ theme_settings:
   experience_title: EDUCATION
   interests_title: RESEARCH INTERESTS
   skills_title: SKILLS
-  awards_title: AWARDS
+  awards_title: GRANTS & AWARDS
   projects_title: PROJECTS
   recentpubs_title: RECENT PUBLICATIONS
 
@@ -55,7 +55,7 @@ scholar:
   bibliography_template: pubstemplate
   style: apa
   locale: en
-  last_name: Me
+  last_name: Park
   first_name: [Myself, M.]
   sort_by: year,month
   order: descending,ascending
