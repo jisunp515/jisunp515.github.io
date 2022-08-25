@@ -1,5 +1,6 @@
 # Site Settings
-baseurl: "/Grape-Academic-Theme"
+url: "https://jisunp515.github.io"
+baseurl: ""
 
 # Features Setting
 # Turn subpages on or off
