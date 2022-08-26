@@ -15,10 +15,10 @@ remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Title"
+locale                   : "en"
+title                    : "My Humble Homepage"
 title_separator          : "|"
-subtitle                 : "Subtitle"
+subtitle                 : ""
 name                     : "Jisun Park"
 description              : "description"
 url                      : "https://jisunp515.github.io"
@@ -200,7 +200,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 3 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -258,6 +258,15 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  news:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
@@ -276,6 +285,13 @@ defaults:
   - scope:
       path: "_pages"
       type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _news
+  - scope:
+      path: "_posts"
+      type: news
     values:
       layout: single
       author_profile: true

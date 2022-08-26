@@ -4,4 +4,6 @@ excerpt: "Curriculum Vitae."
 permalink: /cv/
 ---
 
-Curriculum Vitae.
+XXX CV 양식 찾아서 수정
+
+XXX pdf 버전 추가

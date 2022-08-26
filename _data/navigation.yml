@@ -6,7 +6,3 @@ main:
     url: /publications/
   - title: "News"
     url: /news/
- 
-cv:
-  - title: "CV_test"
-    url: /cv_test/
