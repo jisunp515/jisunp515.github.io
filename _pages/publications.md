@@ -6,10 +6,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-<!-- The list of published papers. -->
-
-<!-- ### Preprints
------ -->
 
 ### Conferences
 -----

@@ -8,8 +8,9 @@
   {% assign entries = entries | reverse %}
 {% endif %}
 
-{%- for post in entries -%}
+{%- for post in entries reversed -%}
   {%- unless post.hidden -%}
-    {% include archive-single.html %}
+    <!-- {% include archive-single.html %} -->
+    {% include archive-single-news.html %}
   {%- endunless -%}
 {%- endfor -%}

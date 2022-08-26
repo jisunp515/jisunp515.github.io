@@ -264,7 +264,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   news:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
@@ -290,7 +290,7 @@ defaults:
       author_profile: true
   # _news
   - scope:
-      path: "_posts"
+      path: "_news"
       type: news
     values:
       layout: single

@@ -12,10 +12,9 @@
 
 <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      <h3>{{post.title}}</h3>
-    </h2>
-    {% include page__meta.html type=include.type %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html}}</p>{% endif %}
+    <h6 style="font-size:80%;">{{post.title}}</h6>
+    {% if post.excerpt %}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html}}</p>
+    {% endif %}
   </article>
 </div>

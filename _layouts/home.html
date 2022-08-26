@@ -6,17 +6,24 @@ layout: archive
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_news | default: "Recent news`" }}</h3>
 
-{% if paginator %}
+
+{% for post in site.news reversed %}
+  {% if forloop.index < 4 %}
+    {% include archive-single-news.html type=entries_layout %}
+  {% endif %}
+{% endfor %}
+
+<!-- {% if paginator %}
   {% assign posts = paginator.posts %}
 {% else %}
   {% assign posts = site.posts %}
-{% endif %}
+{% endif %} -->
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
+<!-- {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
   {% for post in posts %}
     {% include archive-single-news.html type=entries_layout %}
   {% endfor %}
-</div>
+</div> -->
 
-{% include paginator.html %}
+<!-- {% include paginator.html %} -->
