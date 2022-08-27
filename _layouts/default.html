@@ -12,6 +12,13 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+      });
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
@@ -31,7 +38,7 @@
     <div id="footer" class="page__footer">
       <footer>
         {% include footer/custom.html %}
-        {% include_cached footer.html %}
+<!--        {% include_cached footer.html %}-->
       </footer>
     </div>
 
