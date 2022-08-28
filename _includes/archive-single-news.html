@@ -12,9 +12,9 @@
 
 <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    <h6 style="font-size:80%;">{{post.title}}</h6>
+    <h6 class="archive__item-title" itemprop="title">{{post.title}}</h6>
     {% if post.excerpt %}
-      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html}}</p>
+      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify}}</p>
     {% endif %}
   </article>
 </div>

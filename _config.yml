@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en"
-title                    : "My Humble Homepage"
+title                    : "Jisun Park"
 title_separator          : "|"
 subtitle                 : ""
 name                     : "Jisun Park (박지선)"
@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jisun Park"
+  name             : "Jisun Park (박지선)"
   avatar           : "/assets/images/pingu.jpg"
-  bio              : "**Furious** pingu."
+  bio              : "Ph.D. candidate at SNU."
   location         : "Seoul, Republic of Korea"
   # email            : "colleenp0515@snu.ac.kr"
   links:
