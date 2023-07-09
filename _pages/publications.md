@@ -6,8 +6,24 @@ permalink: /publications/
 author_profile: true
 ---
 
+### Preprints
+-----
+- Suh, J. J., **Park, J.** and Ryu, E. K.
+**Continuous-time Analysis of Anchor Acceleration.**
+[[arXiv](https://arxiv.org/abs/2304.00771)]
+
+- Paeng, J., **Park, J.** and Ryu, E. K.
+**Coordinate-Update Algorithms can Efficiently Detect Infeasible Optimization Problems.**
+[[arXiv](https://arxiv.org/abs/2305.12211)]
+
+
 ### Conference Papers
 -----
+- **Park, J.** and Ryu, E. K.
+**Accelerated Infeasibility Detection of Constrained Optimization and Fixed-Point Iterations.**
+_International Conference on Maching Learning (ICML)_, 2023.
+[[arXiv](https://arxiv.org/abs/2303.15876)]
+
 - **Park, J.** and Ryu, E. K.
 **Exact Optimal Accelerated Complexity for Fixed-Point Iterations.**
 _International Conference on Machine Learning (ICML)_, 2022.

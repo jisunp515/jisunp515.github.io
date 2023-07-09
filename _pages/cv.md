@@ -23,9 +23,14 @@ PUBLICATIONS
 -----
 
 - **Park, J.** and Ryu, E. K.
+**Accelerated Infeasibility Detection of Constrained Optimization and Fixed-Point Iterations.**
+_International Conference on Maching Learning (ICML)_, 2023.
+
+- **Park, J.** and Ryu, E. K.
 **Exact Optimal Accelerated Complexity for Fixed-Point Iterations.**
 _International Conference on Machine Learning (ICML)_, 2022.
   - Long Talk (Top 118/5630=2% of papers)
+
 - Park, C., **Park, J.** and Ryu, E. K.
 **Factor-$\sqrt{2}$ Acceleration of Accelerated Gradient Methods.**
 _Applied Mathematics & Optimization_, 2022.
@@ -34,6 +39,7 @@ _Applied Mathematics & Optimization_, 2022.
 HONORS & FELLOWSHIPS
 -----
 
+- **&emsp;&ensp;2023.02&ensp;** 2023 Future Gauss Lecture (_Gauss Labs_) [[Video]](https://www.youtube.com/watch?v=INbfDsWhq8M)
 - **&emsp;&ensp;2022.07&ensp;** Google Travel Grant (_Google_)
 - **2019-2022&ensp;** Brain Korea 21 Four, Brain Korea 21 Plus (_National Research Foundation of Korea_)
 - **&emsp;&ensp;2019.08&ensp;** Best Teaching Assistant Awards (_SNU_)
