@@ -22,6 +22,18 @@ EDUCATION
 PUBLICATIONS
 -----
 
+- Paeng, J., **Park, J.** and Ryu, E. K.
+**Coordinate-Update Algorithms can Efficiently Detect Infeasible Optimization Problems.**
+_arXiv Preprint_, 2023.
+
+- Suh, J. J., **Park, J.** and Ryu, E. K.
+**Continuous-time Analysis of Anchor Acceleration.**
+_Neural Information Processing Systems (NeurIPS)_, 2023.
+
+- Park, C., **Park, J.** and Ryu, E. K.
+**Factor-$\sqrt{2}$ Acceleration of Accelerated Gradient Methods.**
+_Applied Mathematics & Optimization_, 2023.
+
 - **Park, J.** and Ryu, E. K.
 **Accelerated Infeasibility Detection of Constrained Optimization and Fixed-Point Iterations.**
 _International Conference on Maching Learning (ICML)_, 2023.
@@ -30,10 +42,6 @@ _International Conference on Maching Learning (ICML)_, 2023.
 **Exact Optimal Accelerated Complexity for Fixed-Point Iterations.**
 _International Conference on Machine Learning (ICML)_, 2022.
   - Long Talk (Top 118/5630=2% of papers)
-
-- Park, C., **Park, J.** and Ryu, E. K.
-**Factor-$\sqrt{2}$ Acceleration of Accelerated Gradient Methods.**
-_Applied Mathematics & Optimization_, 2022.
   
 
 HONORS & FELLOWSHIPS
@@ -46,4 +54,4 @@ HONORS & FELLOWSHIPS
 - **2014-2018&ensp;** Superior Academic Performance Scholarship (_SNU_), Scholarship from Chunjae Education Corporation, Scholarship from Cheonggwan Scholarship Foundation
 
 
-[CV in .pdf format](https://drive.google.com/file/d/1UuP897_D2a56dbhohXhmKeM_Uufsdbae/view?usp=sharing).
+[CV in .pdf format](https://drive.google.com/file/d/1wFtUGhczk2mh9WAIInl1XZXs8OdGjsha/view?usp=drive_link).
