@@ -10,7 +10,7 @@ permalink: /cv/
 RESEARCH POSITION & EDUCATION
 -----
 
-- **2024-&emsp;&emsp;&emsp;&emsp;** Postdoctoral Research Fellow, Princeton University
+- **2024-&emsp;** Postdoctoral Research Fellow, Princeton University
   - Dept. of Operations Research & Financial Engineering. (Advisor: [Bartolomeo Stellato](https://stellato.io/))
 
 - **2019-2024&emsp;** Ph.D., Seoul National University
