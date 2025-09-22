@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "d
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Jisun Park"
+title                    : "Jisun Park (박지선)"
 title_separator          : "|"
-subtitle                 : "My personal website"
-name                     : "Jisun Park (박지선)"
-description              : "An amazing website."
+subtitle                 : # "My personal website"
+name                     : "Jisun Park"
+description              : # "An amazing website."
 url                      : "https://jisunp515.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "jisunp515/jisunp515.github.io"
@@ -116,8 +116,11 @@ author:
   avatar           : "assets/images/profile_pic.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Postdoc at Princeton ORFE"
   location         : "Princeton, NJ, USA"
-  email            : "jisunpark@princeton.edu"
+  email            : 
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jisunpark@princeton.edu"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=ItMOLM4AAAAJ&hl=en"
@@ -131,12 +134,12 @@ footer:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:jisunpark@princeton.edu"
-    - label: "Google Scholar"
-      icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/citations?hl=en&user=ItMOLM4AAAAJ"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/jisunp515"
+    # - label: "Google Scholar"
+    #   icon: "fas fa-fw fa-graduation-cap"
+    #   url: "https://scholar.google.com/citations?hl=en&user=ItMOLM4AAAAJ"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/jisunp515"
   since: "2022"
 
 
