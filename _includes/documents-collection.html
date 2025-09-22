@@ -1,4 +1,4 @@
-{% assign entries = site[include.collection] %}
+{% assign entries = include.entries | default: site[include.collection] | where_exp: "post", "post.hidden != true" %}
 
 {% if include.sort_by %}
   {% assign entries = entries | sort: include.sort_by %}
@@ -8,9 +8,6 @@
   {% assign entries = entries | reverse %}
 {% endif %}
 
-{%- for post in entries reversed -%}
-  {%- unless post.hidden -%}
-<!--    {% include archive-single.html %}-->
-    {% include archive-single-news.html %}
-  {%- endunless -%}
+{%- for post in entries -%}
+  {% include archive-single.html type=include.type %}
 {%- endfor -%}

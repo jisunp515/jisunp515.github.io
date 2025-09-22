@@ -10,25 +10,28 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme           : "mmistakes/minimal-mistakes@4.27.3"
+minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en"
+locale                   : "en-US"
+rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Jisun Park"
 title_separator          : "|"
-subtitle                 : ""
+subtitle                 : "My personal website"
 name                     : "Jisun Park (박지선)"
-description              : "description"
+description              : "An amazing website."
 url                      : "https://jisunp515.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "jisunp515/jisunp515.github.io"
-teaser                   :
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : # true, false (default)
 words_per_minute         : 200
+enable_copy_code_button  : # true, false (default)
+copyright                : # "copyright" name, defaults to site.title
+copyright_url            : # "copyright" URL, defaults to site.url
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -50,6 +53,11 @@ comments:
     discussion_term      : # "pathname" (default), "url", "title", "og:title"
     reactions_enabled    : # '1' for enabled (default), '0' for disabled
     theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+    strict               : # 1 for enabled, 0 for disabled (default)
+    input_position       : # "top", "bottom" # The comment input box will be placed above or below the comments
+    emit_metadata        : # 1 for enabled, 0 for disabled (default) # https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage
+    lang                 : # "en" (default)
+    lazy                 : # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
@@ -58,8 +66,8 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : true # true, false (default)
-search                   : true # true, false (default)
+  hide                   : # true, false (default)
+search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
@@ -96,7 +104,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          :
     anonymize_ip         : # true, false (default)
@@ -104,18 +112,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jisun Park (박지선)"
-  avatar           : "/assets/images/profile_pic.jpg"
-  bio              : "Postdoctoral Researcher at Princeton ORFE"
+  name             : "Jisun Park"
+  avatar           : "assets/images/pingu.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Postdoc at Princeton ORFE"
   location         : "Princeton, NJ, USA"
-  # email            : "colleenp0515@snu.ac.kr"
+  email            : "jisunpark@princeton.edu"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jisunpark@princeton.edu"
     - label: "Google Scholar"
-      icon: "fas fa-fw fa-link"
-      url: "https://scholar.google.com/citations?hl=en&user=ItMOLM4AAAAJ"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=ItMOLM4AAAAJ&hl=en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jisunp515"
@@ -127,11 +132,12 @@ footer:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:jisunpark@princeton.edu"
     - label: "Google Scholar"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?hl=en&user=ItMOLM4AAAAJ"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jisunp515"
+  since: "2022"
 
 
 # Reading Files
@@ -157,6 +163,7 @@ exclude:
   - gulpfile.js
   - LICENSE
   - log
+  - minimal-mistakes-jekyll.gemspec
   - node_modules
   - package.json
   - package-lock.json
@@ -200,9 +207,33 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 3 # amount of posts to show
-paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Pagination with jekyll-paginate
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+
+# Pagination with jekyll-paginate-v2
+# See https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
+#   for configuration details
+pagination:
+  # Set enabled to true to use paginate v2
+  # enabled: true
+  debug: false
+  collection: 'posts'
+  per_page: 10
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  category: 'posts'
+  tag: ''
+  locale: ''
+  trail:
+    before: 2
+    after: 2
 
 
 # Plugins (previously gems:)
@@ -258,15 +289,6 @@ compress_html:
   ignore:
     envs: development
 
-# Collections
-collections:
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  news:
-    output: false
-    permalink: /:collection/:path/
-
 
 # Defaults
 defaults:
@@ -277,8 +299,9 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
-      comments: false # true
+      show_date: true
+      read_time: true
+      comments: # true
       share: true
       related: true
   # _pages
@@ -295,3 +318,10 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+
+# Collections
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
