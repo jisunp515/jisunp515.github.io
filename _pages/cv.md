@@ -23,6 +23,10 @@ Please refer to [this](https://drive.google.com/file/d/1TYe4N_DBpBrdxRI-CwyrBQ8e
 
 ### <u>PUBLICATIONS</u>
 
+- O. Press et al.
+**AlgoTune: Can Language Models Speed Up General-Purpose Numerical Programs?**
+*Neural Information Processing Systems (NeurIPS)*, 2025.
+
 - J. Paeng, **J. Park**, and E. K. Ryu.
 **Coordinate-Update Algorithms can Efficiently Detect Infeasible Optimization Problems.**
 *Jounal of Mathematical Analysis and Applications (JMAA)*, 2025.

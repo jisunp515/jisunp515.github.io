@@ -16,6 +16,11 @@ author_profile: true
 
 
 ### <u>CONFERENCE PAPERS</u>
+- O. Press et al.
+**AlgoTune: Can Language Models Speed Up General-Purpose Numerical Programs?**
+*Neural Information Processing Systems (NeurIPS)*, 2025.
+[[arXiv](https://arxiv.org/abs/2507.15887)]
+
 - J. J. Suh, **J. Park**, and E. K. Ryu.
 **Continuous-time Analysis of Anchor Acceleration.**
 *Neural Information Processing Systems (NeurIPS)*, 2023.
