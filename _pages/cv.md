@@ -4,7 +4,7 @@ excerpt: "Curriculum Vitae."
 permalink: /cv/
 ---
 
-Please refer to [this](https://drive.google.com/file/d/1lnAj4BezAgeNSXhba2kPbimN76lkHFbj/view?usp=sharing) for pdf version of my CV.
+Please refer to [this](https://drive.google.com/file/d/1TYe4N_DBpBrdxRI-CwyrBQ8egz-caqMF/view?usp=sharing) for pdf version of my CV.
 
 <hr style="border: none; border-top: 2px solid #000; margin: 5px 0;">
 
