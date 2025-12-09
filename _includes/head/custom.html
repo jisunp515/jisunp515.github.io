@@ -3,3 +3,27 @@
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 <!-- end custom head snippets -->
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      },
+      "HTML-CSS": {
+        preferredFont: "STIX-Web",
+        availableFonts: ["STIX-Web", "TeX"],
+        webFont: "STIX-Web"
+      },
+      SVG: {
+        font: "STIX-Web"
+      }
+    });
+</script>
+<!-- Fallback CSS: ensures math uses the chosen serif family if webfonts aren't available -->
+<style>
+  .MathJax, .MathJax_Display, .mjx-chtml {
+    font-family: "STIX-Web", "Times New Roman", Times, serif !important;
+  }
+</style>

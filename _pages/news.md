@@ -10,9 +10,11 @@ excerpt: "News."
 
 <hr style="border: none; border-top: 2px solid #000; margin: 10px 0;">
 
+**(2025-11)**
+Our paper "Data-driven Analysis of First-Order Methods via Distributionally Robust Optimization" is out! Check our [arXiv preprint](https://arxiv.org/abs/2511.17834).
 
 **(2025-10)**
-I will be at 2025 INFORMS Annual Meeting.
+I organized the session entitled "Computer-aided design and verification for first-order optimization algorithms" at 2025 INFORMS Annual Meeting.
 
 **(2025-07)** 
 I gave two talks at ICCOPT'25 and EUROPT'25 on our on-going work: "Data-driven Analysis of First-order Methods via Distributionally Robust Optimization".

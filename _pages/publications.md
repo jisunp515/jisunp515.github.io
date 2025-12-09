@@ -41,10 +41,10 @@ author_profile: true
 ### <u>JOURNAL PUBLICATIONS</u>
 - J. Paeng, **J. Park**, and E. K. Ryu.
 **Coordinate-Update Algorithms can Efficiently Detect Infeasible Optimization Problems.**
-*Jounal of Mathematical Analysis and Applications (JMAA)*, 2025.
+*Journal of Mathematical Analysis and Applications (JMAA)*, 2025.
 [[Elsevier](https://www.sciencedirect.com/science/article/pii/S0022247X24008473)]
 
 - C. Park, **J. Park**, and E. K. Ryu.
-**Factor-\sqrt{2} Acceleration of Accelerated Gradient Methods.**
+**Factor-$\sqrt{2}$ Acceleration of Accelerated Gradient Methods.**
 *Applied Mathematics & Optimization*, 2023.
 [[Springer](https://link.springer.com/article/10.1007/s00245-023-10047-9)]
