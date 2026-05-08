@@ -10,6 +10,15 @@ excerpt: "News."
 
 <hr style="border: none; border-top: 2px solid #000; margin: 10px 0;">
 
+**(2026-05)**
+Our paper "Distributionally-robust Learning to Optimize" is out! Check our [arVix preprint](https://arxiv.org/abs/2605.06585).
+
+**(2026-03)**
+I gave talk at INFORMS Optimization Society Conference on: "Data-driven Analysis of First-Order Methods via Distributionally Robust Optimization".
+
+**(2025-12)**
+I gave a talk at KAIST ISE Symposium on: "Data-driven Analysis of First-Order Methods via Distributionally Robust Optimization".
+
 **(2025-11)**
 Our paper "Data-driven Analysis of First-Order Methods via Distributionally Robust Optimization" is out! Check our [arXiv preprint](https://arxiv.org/abs/2511.17834).
 

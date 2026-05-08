@@ -4,7 +4,7 @@ excerpt: "Curriculum Vitae."
 permalink: /cv/
 ---
 
-Please refer to [this](https://drive.google.com/file/d/1IEm-Tuuz23JU2mJc3wlQ-9xukB7iZL4C/view?usp=sharing) for pdf version of my CV.
+Please refer to [this](https://drive.google.com/file/d/15lwiHHLiMiFhCVGPjKYhbsAqTo7T3YUX/view?usp=sharing) for pdf version of my CV.
 
 <hr style="border: none; border-top: 2px solid #000; margin: 5px 0;">
 
@@ -22,6 +22,10 @@ Please refer to [this](https://drive.google.com/file/d/1IEm-Tuuz23JU2mJc3wlQ-9xu
 
 
 ### <u>PUBLICATIONS</u>
+
+- V. Ranjan, **J. Park**, and B. Stellato.
+**Distributionally-robust Learning to Optimize.**
+*arXiv e-preints:2605.06585*, 2026.
 
 - **J. Park**, V. Ranjan, and B. Stellato.
 **Data-driven Analysis of First-Order Methods via Distributionally Robust Optimization.**

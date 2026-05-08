@@ -9,6 +9,16 @@ author_profile: true
 <hr style="border: none; border-top: 2px solid #000; margin: 10px 0;">
 
 ### <u>PREPRINTS</u>
+- V. Ranjan, **J. Park**, and B. Stellato.
+**Distributionally-robust Learning to Optimize.**
+*arXiv e-prints:2605.06585*, 2026.
+[[arXiv](https://arxiv.org/abs/2605.06585)]
+
+- **J. Park**, V. Ranjan, and B. Stellato.
+**Data-driven Analysis of First-Order Methods via Distributionally Robust Optimization.**
+*arXiv e-prints:2511.17834*, 2025.
+[[arXiv](https://arxiv.org/abs/2511.17834)]
+
 - V. Ranjan, **J. Park**, S. Gualandi, A. Lodi, and B. Stellato.
 **Exact Verification of First-Order Methods via Mixed-Integer Linear Programming.**
 *arXiv e-prints:2412.11330*, 2024.
