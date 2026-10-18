@@ -10,9 +10,6 @@ excerpt: "News."
 
 <hr style="border: none; border-top: 2px solid #000; margin: 10px 0;">
 
-**(2026-11)**
-I will give a talk at the [2026 INFORMS Annual Meeting](https://meetings.informs.org/wordpress/annual/) in San Francisco on: "Designing First-Order Methods with Provable Guarantees via a Data-Driven Approach".
-
 **(2026-08)**
 I gave a talk at [MOPTA 2026](https://coral.ise.lehigh.edu/mopta2026/) at Lehigh University on: "Data-driven Analysis of First-Order Methods via Distributionally Robust Optimization".
 
