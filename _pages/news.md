@@ -35,7 +35,7 @@ Our paper "Data-driven Analysis of First-Order Methods via Distributionally Robu
 I organized the session entitled "Computer-aided design and verification for first-order optimization algorithms" at 2025 INFORMS Annual Meeting.
 
 **(2025-09)**
-Our paper "AlgoTune: Can Language Models Speed Up General-Purpose Numerical Programs?" has been accepted to Neural Information Processing Systems (NeurIPS'25).
+Our paper "AlgoTune: Can Language Models Speed Up General-Purpose Numerical Programs?" has been accepted to Neural Information Processing Systems (NeurIPS'25) Datasets and Benchmarks Track.
 
 **(2025-07)** 
 I gave two talks on our on-going work at ICCOPT'25 on: "Data-driven Performance Estimation of First-Order Methods", and at EUROPT'25 on: "Data-driven Analysis of First-Order Methods via Distributionally Robust Optimization".
