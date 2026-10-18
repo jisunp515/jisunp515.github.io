@@ -25,6 +25,8 @@ Our paper "Learning Distributionally Robust First-Order Methods for Convex Optim
 **(2026-03)**
 I gave a talk at INFORMS Optimization Society Conference on: "Data-driven Analysis of First-Order Methods via Distributionally Robust Optimization".
 
+---
+
 **(2025-12)**
 I gave a talk at KAIST ISE Symposium on: "Data-driven Analysis of First-Order Methods via Distributionally Robust Optimization".
 
