@@ -10,11 +10,20 @@ excerpt: "News."
 
 <hr style="border: none; border-top: 2px solid #000; margin: 10px 0;">
 
+**(2026-11)**
+I will give a talk at the [2026 INFORMS Annual Meeting](https://meetings.informs.org/wordpress/annual/) in San Francisco on: "Designing First-Order Methods with Provable Guarantees via a Data-Driven Approach".
+
+**(2026-08)**
+I gave a talk at [MOPTA 2026](https://coral.ise.lehigh.edu/mopta2026/) at Lehigh University on: "Data-driven Analysis of First-Order Methods via Distributionally Robust Optimization".
+
+**(2026-06)**
+I gave a talk at [SIAM Conference on Optimization (OP26)](https://www.siam.org/conferences-events/siam-conferences/op26/) in Edinburgh on: "Data-driven Analysis of First-Order Methods via Distributionally Robust Optimization".
+
 **(2026-05)**
-Our paper "Distributionally-robust Learning to Optimize" is out! Check our [arVix preprint](https://arxiv.org/abs/2605.06585).
+Our paper "Learning Distributionally Robust First-Order Methods for Convex Optimization" is out! Check our [arXiv preprint](https://arxiv.org/abs/2605.06585).
 
 **(2026-03)**
-I gave talk at INFORMS Optimization Society Conference on: "Data-driven Analysis of First-Order Methods via Distributionally Robust Optimization".
+I gave a talk at INFORMS Optimization Society Conference on: "Data-driven Analysis of First-Order Methods via Distributionally Robust Optimization".
 
 **(2025-12)**
 I gave a talk at KAIST ISE Symposium on: "Data-driven Analysis of First-Order Methods via Distributionally Robust Optimization".
@@ -25,13 +34,17 @@ Our paper "Data-driven Analysis of First-Order Methods via Distributionally Robu
 **(2025-10)**
 I organized the session entitled "Computer-aided design and verification for first-order optimization algorithms" at 2025 INFORMS Annual Meeting.
 
+**(2025-09)**
+Our paper "AlgoTune: Can Language Models Speed Up General-Purpose Numerical Programs?" has been accepted to Neural Information Processing Systems (NeurIPS'25).
+
 **(2025-07)** 
-I gave two talks at ICCOPT'25 and EUROPT'25 on our on-going work: "Data-driven Analysis of First-order Methods via Distributionally Robust Optimization".
+I gave two talks on our on-going work at ICCOPT'25 on: "Data-driven Performance Estimation of First-Order Methods", and at EUROPT'25 on: "Data-driven Analysis of First-Order Methods via Distributionally Robust Optimization".
 
 ---
 
 **(2024-12)**
-Our paper "Coordinate-update algorithms can efficiently detect infeasible optimization problems" is accepted to the Journal of Mathematical Analysis and Applications (JMAA).
+- Our paper "Coordinate-update algorithms can efficiently detect infeasible optimization problems" is accepted to the Journal of Mathematical Analysis and Applications (JMAA).
+- I gave a talk at [Korea Institute for Advanced Study (KIAS)](http://events.kias.re.kr/h/aiseminar/?pageNo=4440) on "Beyond the Worst-case Analysis of Optimization Algorithms".
 
 **(2024-09)** I joined Princeton University as a postdoctoral researcher at Dept. of Operations Research and Financial Engineering. I will be working with Prof. [Bartolomeo Stellato](https://stellato.io/).
 
@@ -42,6 +55,8 @@ Our paper "Coordinate-update algorithms can efficiently detect infeasible optimi
 **(2024-01)** I gave a talk at [East Asian Core Doctoral Forum on Mathematics](https://math.fudan.edu.cn/d5/9a/c30300a644506/page.htm) on "Accelerated Infeasibility Detection of Constrained Optimization and Fixed-Point Iterations".
 
 ---
+
+**(2023-10)** I gave a talk at [BK21 Four Rookies Pitch](https://www.math.snu.ac.kr/bbs/board.php?bo_table=Math_Video&wr_id=98&page=6&year=2026&month=3&day=9) at Seoul National University.
 
 **(2023-09)** Our paper "Continuous-time Analysis of Anchor Acceleration" has been accepted to Neural Information Processing Systems (NeurIPS'23) as a poster.
 

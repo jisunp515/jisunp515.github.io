@@ -27,3 +27,7 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+# CV LaTeX sources and build files (only the compiled PDF is published)
+assets/files/cv/*
+!assets/files/cv/cv.pdf

@@ -10,7 +10,7 @@ author_profile: true
 
 ### <u>PREPRINTS</u>
 - V. Ranjan, **J. Park**, and B. Stellato.
-**Distributionally-robust Learning to Optimize.**
+**Learning Distributionally Robust First-Order Methods for Convex Optimization.**
 *arXiv e-prints:2605.06585*, 2026.
 [[arXiv](https://arxiv.org/abs/2605.06585)]
 
@@ -18,11 +18,6 @@ author_profile: true
 **Data-driven Analysis of First-Order Methods via Distributionally Robust Optimization.**
 *arXiv e-prints:2511.17834*, 2025.
 [[arXiv](https://arxiv.org/abs/2511.17834)]
-
-- V. Ranjan, **J. Park**, S. Gualandi, A. Lodi, and B. Stellato.
-**Exact Verification of First-Order Methods via Mixed-Integer Linear Programming.**
-*arXiv e-prints:2412.11330*, 2024.
-[[arXiv](https://arxiv.org/abs/2412.11330)]
 
 
 ### <u>CONFERENCE PAPERS</u>
@@ -38,7 +33,7 @@ author_profile: true
 
 - **J. Park**, and E. K. Ryu.
 **Accelerated Infeasibility Detection of Constrained Optimization and Fixed-Point Iterations.**
-*International Conference on Maching Learning (ICML)*, 2023.
+*International Conference on Machine Learning (ICML)*, 2023.
 [[PMLR](https://proceedings.mlr.press/v202/park23k.html)]
 
 - **J. Park**, and E. K. Ryu.
@@ -49,6 +44,11 @@ author_profile: true
 
 
 ### <u>JOURNAL PUBLICATIONS</u>
+- V. Ranjan, **J. Park**, S. Gualandi, A. Lodi, and B. Stellato.
+**Exact Verification of First-Order Methods via Mixed-Integer Linear Programming.**
+*SIAM Journal on Optimization*, 2026. (To appear)
+[[arXiv](https://arxiv.org/abs/2412.11330)]
+
 - J. Paeng, **J. Park**, and E. K. Ryu.
 **Coordinate-Update Algorithms can Efficiently Detect Infeasible Optimization Problems.**
 *Journal of Mathematical Analysis and Applications (JMAA)*, 2025.
