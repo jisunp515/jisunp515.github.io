@@ -9,6 +9,11 @@ author_profile: true
 <hr style="border: none; border-top: 2px solid #000; margin: 10px 0;">
 
 ### <u>PREPRINTS</u>
+- V. Ranjan, D. Deza, A. Acharya, **J. Park**, and B. Stellato.
+**FOMTools: Development and AI-Assisted Code Generation for First-Order Methods.**
+*arXiv e-prints:2610.26743*, 2026.
+[[arXiv](https://arxiv.org/abs/2610.26743)]
+
 - V. Ranjan, **J. Park**, and B. Stellato.
 **Learning Distributionally Robust First-Order Methods for Convex Optimization.**
 *arXiv e-prints:2605.06585*, 2026.

@@ -10,6 +10,9 @@ excerpt: "News."
 
 <hr style="border: none; border-top: 2px solid #000; margin: 10px 0;">
 
+**(2026-10)**
+Our paper "FOMTools: Development and AI-Assisted Code Generation for First-Order Methods" is out! Check our [arXiv preprint](https://arxiv.org/abs/2610.26743).
+
 **(2026-08)**
 I gave a talk at [MOPTA 2026](https://coral.ise.lehigh.edu/mopta2026/) at Lehigh University on: "Data-driven Analysis of First-Order Methods via Distributionally Robust Optimization".
 
