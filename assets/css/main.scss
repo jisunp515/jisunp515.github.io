@@ -8,5 +8,15 @@ search: false
 // web font, loaded in _includes/head/custom.html
 $sans-serif: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
 
+// cap the base size at 18px (theme default grows to 20px / 22px on wide screens)
+$doc-font-size-large: 18px;
+$doc-font-size-x-large: 18px;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// notice boxes are 0.75em by default, which reads too small next to body text
+.notice--primary,
+.notice--info {
+  font-size: 0.875em !important;
+}
